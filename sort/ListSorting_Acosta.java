@@ -2,6 +2,8 @@ import java.util.*;
 
 public class ListSorting_Acosta{
 
+    public static void main(String[] args) {
+
     List<String> fruits = new ArrayList<>(Arrays.asList("Banana", "Kiwi", "Orange", "Mango", "Grapes"));
 
     System.out.println("Original list" + fruits);
@@ -75,4 +77,5 @@ public class ListSorting_Acosta{
 
     
 
+}
 }
