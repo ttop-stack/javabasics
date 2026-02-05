@@ -1,6 +1,5 @@
-import java.uti.*;
-import java.util.Map;
-import java.util.SortedMap;
+import java.util.*;
+
 
 
 public class Maps_Acosta {
@@ -38,8 +37,7 @@ public class Maps_Acosta {
         System.out.println("Here is the treemap of chinese words and their english translations" + treeMap);
 
         System.out.println("We will now perfrom basic operations on the hashmap");
-        System.out.println("such as put(), get(), containsKey(), containsValue(),
-                            remove(), replace(), size() and isEmpty()");
+        System.out.println("such as put(), get(), containsKey(), containsValue(),remove(), replace(), size() and isEmpty()");
         System.out.println("Lets add a new item to the menu");
         hashMap.put(5, "Fries");
         System.out.println("Here is the hashmap after adding an item" + hashMap);

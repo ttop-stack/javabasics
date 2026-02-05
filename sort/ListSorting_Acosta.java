@@ -10,12 +10,10 @@ public class ListSorting_Acosta{
     System.out.println("Lets sort the list");
     sortedlist = Collections.sort(fruits);
     System.out.println("Sorted list is"+ sortedlist);
-    System.out.println("Cool that sorted the list but it sorted it in ascending order
-    // How about sorting it in descending order?");
+    System.out.println("Cool that sorted the list but it sorted it in ascending order. How about sorting it in descending order?");
     reverseSortedList = Collections.reverse(fruits);
     System.out.println("The sorted list in descending order is"+ reverseSortedList);
-    System.out.println("That wasnt too bad right? but the list was predefined
-    // What if we wanted to sort a list whose elemnents are a custom type? ");
+    System.out.println("That wasnt too bad right? but the list was predefined. What if we wanted to sort a list whose elemnents are a custom type? ");
 
 
     public class Skateboarder{
