@@ -61,7 +61,7 @@ public class set_Acosta {
             Set<Integer> newnums = new HashSet<>(Arrays.asList(4, 5, 6, 7, 8));
             System.out.println("Here is the new hashset" + newnums);
             System.out.println("here is the old hashset as a reminder" + nums);
-            nums.add(newnums);
+            nums.addAll(newnums);
             System.out.println("Now they are married"+ nums);
             System.out.println("Now lets find the intersection of the two sets");
             nums.retainAll(newnums);
