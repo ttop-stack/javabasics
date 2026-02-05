@@ -8,11 +8,11 @@ public class ListSorting_Acosta{
 
     System.out.println("Original list" + fruits);
     System.out.println("Lets sort the list");
-    sortedlist = Collections.sort(fruits);
-    System.out.println("Sorted list is"+ sortedlist);
+   Collections.sort(fruits);
+    System.out.println("Sorted list is"+ fruits);
     System.out.println("Cool that sorted the list but it sorted it in ascending order. How about sorting it in descending order?");
-    reverseSortedList = Collections.reverse(fruits);
-    System.out.println("The sorted list in descending order is"+ reverseSortedList);
+    Collections.reverse(fruits);
+    System.out.println("The sorted list in descending order is"+ fruits);
     System.out.println("That wasnt too bad right? but the list was predefined. What if we wanted to sort a list whose elemnents are a custom type? ");
 
 
