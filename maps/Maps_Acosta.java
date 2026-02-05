@@ -127,6 +127,9 @@ public class Maps_Acosta {
             }
         });
 
+        // Add all movies to the new TreeMap with descending comparator
+        moviesDescending.putAll(movies);
+
         System.out.println("And with our custom comparator, here is the new treemap of movies sorted in descending order" + moviesDescending);
 
         System.out.println("Thats all she wrote folks, goodbye");
