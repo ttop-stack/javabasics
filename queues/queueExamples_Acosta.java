@@ -20,12 +20,11 @@ public class queueExamples_Acosta{
         namesQueue.add("Bobby Jo");
         System.out.println("Here is the queue after adding an element" + namesQueue);
 
-        System.out.println("To remove the first or last elemnent of the queue, we use pollFirst() and pollLast() respectively");
+        System.out.println("lets remove the head");
         System.out.println("here is our current queue" + namesQueue);
-        namesQueue.pollFirst();
-        namesQueue.pollLast();
+       namesQueue.remove();
 
-        System.out.println("I removed some elements so lets take a look at the head of the queue");
+        System.out.println("I removed the head so now lets look at the current one");
         System.out.println(namesQueue.peek());
 
         System.out.println("for iterating we can use a simple lambda expression");
