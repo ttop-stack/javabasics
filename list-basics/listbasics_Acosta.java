@@ -23,6 +23,18 @@ public class listbasics_Acosta {
         do {
             System.out.println("\n=== LIST OPERATIONS MENU ===");
             System.out.println("Current list: " + nums);
+            System.out.println("1. Basic List operations");
+            System.out.println("2. Iterate over elements");
+            System.out.println("3. Search for element");
+            System.out.println("4. Sort list");
+            System.out.println("5. Copy list elements");
+            System.out.println("6. Shuffle list");
+            System.out.println("7. Reverse list");
+            System.out.println("8. Extract portion");
+            System.out.println("9. Convert List/Array");
+            System.out.println("10. List to Stream");
+            System.out.println("11. Concurrent lists");
+            System.out.println("0. Exit program");
             System.out.print("Enter choice (0-11): ");
             choice = sc.nextInt();
             
